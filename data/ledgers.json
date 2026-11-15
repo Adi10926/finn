@@ -1,0 +1,28 @@
+{
+  "DIXON": {
+    "source": {"title": "Dixon Q2 FY27 earnings call transcript (30 Oct 2026), NSE filing", "url": "https://nsearchives.nseindia.com/corporate/DIXON_05112026163605_EarningCallTranscriptQ2Intimation.pdf"},
+    "extracted_by": "one-time extraction pass, cached",
+    "tone": "Confident",
+    "guidance": [
+      {"metric": "volume", "statement": "Mobile volumes (ex-Vivo) of ~33–34M units, with export ramp-up from Q4", "period": "FY27 / H2 FY27", "speaker": "Atul Lall, VC & MD", "flag": "Transcript wording is ambiguous between full-year and H2. H1 was ~17.2M, so FY 33–34M implies a flat H2, while H2 33–34M implies ~50M for the year. FINN tracks it as unresolved."},
+      {"metric": "volume", "statement": "Vivo JV to reach ~20–21M units a year once production starts from Q4 FY27", "period": "Q4 FY27 onward", "speaker": "Atul Lall"},
+      {"metric": "revenue", "statement": "IT hardware revenue ~₹6,000 Cr this year, rising to ₹15,000–20,000 Cr in a couple of years (ex-servers)", "period": "FY27 → FY29", "speaker": "Atul Lall / Saurabh Gupta", "check": {"type": "run_rate", "actual_q": 2160, "target_fy": 6000, "label": "Q2 IT hardware revenue ₹2,160 Cr"}},
+      {"metric": "capex", "statement": "Group capex ~₹1,200 Cr in FY27 (~₹700 Cr already spent in H1); similar ₹1,200–1,300 Cr in FY28", "period": "FY27–FY28", "speaker": "Saurabh Gupta, CFO", "check": {"type": "capex_vs_history", "target_fy": 1200}},
+      {"metric": "margin", "statement": "Display + camera-module businesses to add 80–100 bps to group margins over two years; display margins in high teens next year", "period": "FY27–FY29", "speaker": "Saurabh Gupta", "check": {"type": "margin_path", "add_bps": [80, 100]}},
+      {"metric": "margin", "statement": "IT hardware margins ~2–2.3% at current pricing; +80–100 bps as 25–30% of BOM is backward-integrated", "period": "FY27 onward", "speaker": "Saurabh Gupta"},
+      {"metric": "revenue", "statement": "Q Tech (camera modules) revenue ~₹2,500–3,000 Cr next year, margins recovering to 6–7%", "period": "FY28", "speaker": "Saurabh Gupta"}
+    ],
+    "delivered": [
+      {"metric": "revenue", "statement": "Q2 FY27 revenue ₹21,806 Cr; EBITDA ex-fair-value gain ₹609 Cr; PAT after minority ₹293 Cr"},
+      {"metric": "volume", "statement": "Mobile volumes roughly flat YoY while India's smartphone market fell ~26%; H1 FY27 ~17.2M units"},
+      {"metric": "revenue", "statement": "Mobile & EMS revenue ₹20,093 Cr, op. profit ₹509 Cr. Management says growth came from memory-cost pass-through (price), not volume"},
+      {"metric": "margin", "statement": "Washing-machine EBITDA margin ~8.3% vs a usual ~11% (~3 pp hit in H1 from polymer, freight and FX)"}
+    ],
+    "analyst_pushback": [
+      "Mobile volume outlook with smartphone market down sharply",
+      "Margin compression from memory costs; lagged pass-through in appliances",
+      "Working-capital build and H1 cash burn; timing of PLI receipts",
+      "Sustainability of memory-driven revenue if component prices reverse"
+    ]
+  }
+}
